@@ -23,6 +23,7 @@ def banner():
   |____| \___  >____/\___  >___  /|__|  (____  /__|_|  / /_______  /\___  >__|  (____  /   __/|   __/ \___  >__|   
              \/          \/_____/            \/      \/          \/     \/           \/|__|   |__|        \/    
      
+     Recoded By Raghav
         """)
 
 cpass = configparser.RawConfigParser()
@@ -112,8 +113,8 @@ for user in users:
 	        else:
 	            sys.exit(re+"[!] Invalid Mode Selected. Please Try Again.")
 	        client(InviteToChannelRequest(target_group_entity,[user_to_add]))
-	        print(gr+"[+] Waiting for 10-30 Seconds...")
-	        time.sleep(random.randrange(60))
+	        print(gr+"[+] Waiting for right time to add members...")
+	        time.sleep(60)
 	    except PeerFloodError:
 	        print(re+"[!] Getting Flood Error from telegram. \n[!] Script is stopping now. \n[!] Please try again after some time.")
 	    except UserPrivacyRestrictedError:
