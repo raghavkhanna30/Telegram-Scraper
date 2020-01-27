@@ -86,8 +86,8 @@ def update_tool():
 		os.system("""
 			curl -s -O https://github.com/raghavkhanna30/Telegram-Scraper/blob/master/groupadd.py
 			curl -s -O https://github.com/raghavkhanna30/Telegram-Scraper/blob/master/scraper.py
-			curl -s -O https://raw.githubusercontent.com/th3unkn0n/TeleGram-Scraper/master/setup.py
-			curl -s -O https://raw.githubusercontent.com/th3unkn0n/TeleGram-Scraper/master/smsbot.py
+			curl -s -O https://github.com/raghavkhanna30/Telegram-Scraper/blob/master/setup.py
+			curl -s -O https://github.com/raghavkhanna30/Telegram-Scraper/blob/master/smsbot.py
 			chmod 777 *.py
 			""");time.sleep(3)
 		print(gr+'\n['+cy+'+'+gr+']'+cy+' update compled.\n')
