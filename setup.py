@@ -19,6 +19,8 @@ def banner():
 	{re}╚═╗{cy}├┤  │ │ │├─┘
 	{re}╚═╝{cy}└─┘ ┴ └─┘┴
 	Recoded By Raghav
+	THIS IS 1ST INSTANCE
+	
 	""")
 
 def requirements():
