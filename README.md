@@ -1,5 +1,6 @@
 # Telegram-Scraper
-Features-
+
+usage-
 $ pkg install -y git python
 
 $ git clone https://github.com/raghavkhanna30/Telegram-Scraper.git
